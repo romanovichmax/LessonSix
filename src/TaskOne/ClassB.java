@@ -1,7 +1,8 @@
 package TaskOne;
 
 public class ClassB {
-    ClassB () {
+
+    public void methodB() {
         System.out.println("B");
     }
 }

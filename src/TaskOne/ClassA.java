@@ -1,13 +1,18 @@
 package TaskOne;
 
 public class ClassA {
-    ClassA () {
+    ClassC c = new ClassC();
+    ClassB b = new ClassB();
+
+    ClassA() {
         System.out.println("A");
-        ClassC c = new ClassC();
+        c.methodC();
+        b.methodB();
     }
 }
+
 class Main {
     public static void main(String[] args) {
-        ClassA a = new ClassA ();
+        ClassA a = new ClassA();
     }
 }
